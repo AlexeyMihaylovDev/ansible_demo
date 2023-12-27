@@ -1,0 +1,6 @@
+- name: Set up a Ping Pong game
+  hosts: linux_servers
+  gather_facts: true
+  tasks:
+    - name: Ping the servers
+      ping:
